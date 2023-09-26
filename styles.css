@@ -249,10 +249,10 @@ form {
 }
 
 .section__para {
-  font-size: 18px;
+  font-size: 20px;
   color: #7c8ba1;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   line-height: 1.75;
   font-weight: 600;
 }
@@ -428,10 +428,137 @@ form {
   color: #718096;
 }
 
+.value__btn {
+  margin-top: 48px;
+}
+
 .values__img--wrapper {
   width: 48%;
 }
 
 .values__img {
   width: 100%;
+}
+
+/* PRICING */
+
+.pricing__description {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan {
+  width: 30%;
+  margin-top: 64px;
+  position: relative;
+  border: 2px solid #7c8ba180;
+  border-radius: 8px;
+}
+
+.plan--blue {
+  background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__border-top {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.plan__border-top--red {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan__header {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  margin: 12px 0;
+  color: #1a202c;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.duration {
+  color: #a0aec0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.plan__features {
+  padding: 32px;
+  border-top: 1px solid #7c8ba180;
+  border-bottom: 1px solid #7c8ba180;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plan__feature {
+  color: #718096;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.plan__feature--main {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+.plan__btn--wrapper {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.plan__btn {
+  padding: 16px 32px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 700;
+}
+
+.plan__btn--green {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  color: white;
+}
+
+.plan__btn--white {
+  color: #6415ff;
+}
+
+.plan__btn--red {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  color: white;
 }
