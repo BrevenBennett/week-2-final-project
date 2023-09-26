@@ -110,7 +110,7 @@ nav {
 }
 
 .nav__link--margin {
-  margin-left: 36px;
+  margin-left: 48px;
 }
 
 .nav__link:hover {
@@ -191,6 +191,10 @@ form {
   border: none;
   padding: 14px 24px;
   font-size: 16px;
+  font-weight: 700;
+}
+
+.header__btn {
   position: absolute;
   right: 26.5%;
   bottom: 10%;
@@ -221,7 +225,7 @@ form {
 
 /* FEATURES */
 
-.section__description {
+.features__description {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,4 +291,31 @@ form {
   width: 100%;
   max-width: 200px;
   font-weight: 600;
+}
+
+/* QUALITY */
+
+.quality__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality__description {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.quality__btn {
+  width: 100%;
+  max-width: 175px;
+  margin-top: 28px;
+}
+
+.quality__img--wrapper {
+  width: 48%;
+}
+
+.quality__img {
+  width: 100%;
 }
