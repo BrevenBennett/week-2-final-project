@@ -278,6 +278,7 @@ input {
 
 input::placeholder {
   color: #a0aec068;
+  margin-right: -100px;
   z-index: 100;
 }
 
